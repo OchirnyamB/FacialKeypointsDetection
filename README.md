@@ -12,4 +12,14 @@ Defining the Convolutional Neural Network.
 
 "Well" means that the model's loss decreases during training and, when applied to test image data, the model produces keypoints that closely match the true keypoints of each face. And you'll see examples of this later in the notebook.
 
+Load and Visualize Data.
+
+Training and Testing Data.
+
+The facial keypoints dataset consists of 5770 color images extracted from the YouTube Faces Dataset.
+1. 3462 of these images are training images, which are used to create a model to predict keypoints.
+2. 2308 of these images are test images, which are used to test the accuracy of my model.
+The number of keypoints are 68 where each keypoint has (x,y) dimensions.
+
+
 
