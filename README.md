@@ -44,6 +44,13 @@ Here are the steps that a training function performs as it iterates over the tra
 
 It repeats this process until the average loss has sufficiently decreased.
 
+Apart from the general Python imports for math, random, Pandas, and and Numpy, I have imported the Torch utilities. These include the torch, torch.nn, and torch.utils for the Dataset loaders.
+
+Essential hyperparameters:
+
+num_epochs = 5;
+batch_size = 100;
+learning_rate = 0.001;
 
 Overfitting
 Convolutional, pooling, and fully-connected layers are all you need to construct a complete CNN, but there are additional layers that you can add to avoid overfitting, too. One of the most common layers to add to prevent overfitting is a dropout layer.
